@@ -27,10 +27,10 @@ body {
 .card {
 	/*border:  5px solid blue;*/
 	background-color:  white;
-	margin: 20px auto;
-	width:  calc(100% - 800px);
+	margin: 10px auto;
+	width:  calc(40% - 40px);
 	border-radius: 8px;
-	padding-bottom:  5px;
+	margin-top:  40px;
 }
 
 .card-bg-image video {
@@ -144,7 +144,26 @@ a:hover {
 }
 
 
-	
+@media only screen and (max-width: 980px) {
+
+	.card {
+		min-width: 400px;
+	}
+
+h1 {
+	font-size: calc(1vw + 1.5rem);
+}
+
+ p {
+	font-size: calc(2vw); 
+}
+
+
+@media only screen and (max-width: 730px) {
+
+	p {
+	font-size: calc(2.2vw); 
+ }
 
 
 
