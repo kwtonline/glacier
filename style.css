@@ -172,7 +172,7 @@ h1 {
  @media only screen and (max-width: 450px) {
 
  	.card {
- 		height: 75%;
+ 		height: 100%;
  		;
  	}
  }
