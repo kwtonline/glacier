@@ -1,0 +1,152 @@
+* {
+	margin:  0;
+	padding:  0;
+	box-sizing: border-box;
+	
+}
+
+html {
+	font-size:  10px;
+	background: url(ApgarLake2Large.png) no-repeat center fixed;
+	background-size: cover;	
+}
+
+a {
+	text-decoration: none;
+
+/* add color:  inherit if necy;*/
+}
+
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-size:  1.6rem;
+	color:  #333;
+
+}
+
+.card {
+	/*border:  5px solid blue;*/
+	background-color:  white;
+	margin: 20px auto;
+	width:  calc(100% - 800px);
+	border-radius: 8px;
+	padding-bottom:  5px;
+}
+
+.card-bg-image video {
+	/*border:  5px solid yellow;*/
+	border-radius: 10px 10px 0 0;
+	height:  100%;
+	width: 100%;
+	object-fit: cover;
+	overflow:  hidden;
+	/*
+	border: 1.5mm ridge hsl(173, 5%, 80%);
+	transition: border 2s ease-in-out .2s;
+
+}
+
+.card-bg-image:hover img {
+  border: 1.5mm ridge hsl(25, 47%, 86%);
+  cursor: pointer;
+*/
+}
+
+.card-body {
+	/*border:  5px solid red;*/
+	border-radius: 0 0 8px 8px;
+	display: flex;
+	flex-direction:  column; 
+  	/*align-items: center;
+  	justify-content: center; 
+  	*/padding: 0 1.5rem;
+}
+
+.card-body-border{
+	border: 2px solid hsl(73, 5%, 80%);
+	margin: 10px 0;
+}
+
+.header-modifier {
+	color: hsla(208, 69%, 66%, 0.6);
+	font-weight: bold;
+  	filter: drop-shadow(10px 5px 0.2rem rgba(236, 217, 203, 0.7));
+  	transition: color .8s ease-in-out .2s;
+}
+
+.header-modifier:hover {
+	/*font-weight: lighter;*/
+	color: rgb(35, 216, 196);
+	cursor: pointer;	
+}
+
+h1 {
+	font-size: calc(1vw + 1.5rem);
+	line-height: 1.1;
+	font-weight: lighter;
+  	text-align: center;
+  	color: hsl(200, 5%, 32%);
+}
+
+
+
+p {
+	font-size: calc(1.5vw);
+	line-height: 1.2;
+	font-weight:  lighter;
+  	text-align: center;
+  	color: hsl(200, 5%, 32%);
+  	padding: 0 5px;
+}
+
+ul {
+	align-items: center;
+  	list-style: circle;
+  	list-style-position: inside;
+  	text-align: center;
+  	font-weight: bold;
+  	color: hsla(208, 69%, 66%, 0.6);
+  	margin: calc(1vw + 0.5rem) 2rem;
+}
+
+li {
+	padding:  5px 0;
+	text-align:  center;
+	cursor: pointer;
+	transition: text-shadow .2s ease-in-out .1s;
+}
+
+li:hover {
+	text-shadow: 3px 3px 5px hsl(173, 5%, 80%);	
+}
+
+
+.link-container {
+	text-align: right;
+	padding: 10px;
+
+}
+
+a {
+	text-decoration: none;
+	color: hsl(173, 5%, 80%);
+	transition: color .8s ease-in-out .2s;
+	
+
+}
+
+a:hover {
+	font-weight: bolder;
+	color: rgb(173, 5%, 80%);
+
+	
+
+}
+
+
+	
+
+
+
+
+
