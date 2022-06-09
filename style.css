@@ -169,6 +169,14 @@ h1 {
 	font-size: calc(2.2vw); 
  }
 
+ @media only screen and (max-width: 450px) {
+
+ 	.card {
+ 		height: 75%;
+ 		;
+ 	}
+ }
+
 
 
 
