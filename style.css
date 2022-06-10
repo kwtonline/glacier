@@ -27,12 +27,10 @@ body {
 .card {
 	/*border:  5px solid blue;*/
 	background-color:  white;
-	margin: 0px auto;
-	width:  calc(40% - 10px);
+	margin: 30px auto;
+	width:  50%;
 	border-radius: 8px;
-	position:  absolute;
-	top:  10%;
-	left:  30%;
+	
 
 	
 }
@@ -58,12 +56,12 @@ body {
 
 .card-body {
 	/*border:  5px solid red;*/
-	border-radius: 0 0 8px 8px;
+	border-radius: 0 0 10px 10px;
 	display: flex;
 	flex-direction:  column; 
-  	/*align-items: center;
-  	justify-content: center; 
-  	*/padding: 0 1.5rem;
+  align-items: center;
+  justify-content: center; 
+  padding: 0 1.5rem;
 }
 
 .card-body-border{
@@ -151,7 +149,9 @@ a:hover {
 @media only screen and (max-width: 980px) {
 
 	.card {
-		width: 45%
+		width: 50%;
+		margin-top: 50px;
+
 	}
 
 h1 {
@@ -159,23 +159,44 @@ h1 {
 }
 
  p {
-	font-size: calc(2vw); 
+	font-size: calc(1.9vw); 
 }
 
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 800px) {
 
 	p {
 	font-size: calc(2.2vw); 
+}
+h1 {
+	font-size: calc(1.5vw + 1.5rem);
+	}
+	.card {
+ 		margin-top:  70px;
+ 		width: 60%;	
+}
+ 
+
+@media only screen and (max-width: 600px) {
+
+	p {
+	font-size: calc(2.4vw); 
  }
+	.card {
+ 		margin-top:  70px;
+ 		width: 70%;	
+}
 
  @media only screen and (max-width: 450px) {
 
  	.card {
- 		height: 200%;
- 		;
+ 		margin-top:  70px;
+ 		width: 70%;	
  	}
+ 		p {
+	font-size: calc(2.6vw); 
  }
+}
 
 
 
